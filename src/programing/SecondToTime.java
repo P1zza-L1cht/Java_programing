@@ -2,10 +2,11 @@ package programing;
 
 import java.util.Scanner;
 
-public class Main {
+public class SecondToTime {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		System.out.print("秒数を入力して下さい：");
 		int S = sc.nextInt();
 		int h = 0;
 		int m = 0;
